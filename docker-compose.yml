@@ -60,6 +60,7 @@ services:
     - /srv/daemon/config:/srv/daemon/config
     - /srv/daemon/packs:/srv/daemon/packs
     - /srv/daemon-data:/srv/daemon-data
+    - /etc/timezone:/etc/timezone:ro
 
     - /tmp/pterodactyl:/tmp/pterodactyl
 
